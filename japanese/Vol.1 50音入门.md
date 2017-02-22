@@ -1,4 +1,3 @@
-
 ![1.50音入门](https://leanote.com/api/file/getImage?fileId=58959927ab64413f92000462)
 <br/>
 
