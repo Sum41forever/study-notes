@@ -1,3 +1,5 @@
+**转载自** [简书 - Ruheng](http://www.jianshu.com/u/0fa6f5d09040)
+
 ## 排序
 
 1. 冒泡排序
@@ -47,17 +49,17 @@
 ## 树
 1. 二叉查找树
 + [二叉查找树(三)之Java的实现](http://www.cnblogs.com/skywang12345/p/3576452.html)
-1. 树的深度遍历与广度遍历
+2. 树的深度遍历与广度遍历
 + [树的深度优先遍历和广度优先遍历的原理和java实现代码](http://outofmemory.cn/code-snippet/4189/biinary-tree-java)
-1. 平衡树
+3. 平衡树
 + [AVL树(三)之 Java的实现](http://www.cnblogs.com/skywang12345/p/3577479.html)
-1. 红黑树
+4. 红黑树
 + [红黑树原理解析以及Java实现](http://www.voidcn.com/blog/u010853261/article/p-6370601.html)
-1. 哈夫曼树
+5. 哈夫曼树
 + [哈夫曼树(三)之 Java详解](http://www.cnblogs.com/skywang12345/p/3706833.html)
-1. 并查集
+6. 并查集
 + [数据结构--并查集的原理及实现](http://www.cnblogs.com/hapjin/p/5478352.html)
-1. B树系列　　
+7. B树系列　　
 + [B-树,B+树,B*树](http://www.bigming.me/2016/12/28/%E8%AF%B4%E8%AF%B4B-%E6%A0%91%EF%BC%8CB-%E6%A0%91%EF%BC%8CB-%E6%A0%91/)
 
 ---
@@ -65,23 +67,23 @@
 ## 图
 1. 图的基础概念
 + [图的理论基础](http://www.cnblogs.com/skywang12345/p/3691463.html)
-1. 深度遍历与广度遍历
+2. 深度遍历与广度遍历
 + [图的遍历之 深度优先搜索和广度优先搜索](http://www.cnblogs.com/skywang12345/p/3711483.html)
-1. 单源最短路径
+3. 单源最短路径
 + [Dijkstra算法(三)之Java详解](http://www.cnblogs.com/skywang12345/p/3711516.html)
-1. 多源最短路径
+4. 多源最短路径
 + [Floyd算法(三)之Java详解](http://www.cnblogs.com/skywang12345/p/3711532.html)
-1. 最小生成树
+5. 最小生成树
 + [Prim算法(三)之Java详解](http://www.cnblogs.com/skywang12345/p/3711510.html)
 + [Kruskal算法(三)之Java详解](http://www.cnblogs.com/skywang12345/p/3711504.html)
-1. 拓扑排序
+6. 拓扑排序
 + [拓扑排序(三)之Java详解](http://www.cnblogs.com/skywang12345/p/3711494.html)
 
 ---
 ## 散列查找
 1. 散列表的概念
 + [散列表](http://blog.csdn.net/duan19920101/article/details/51579136)
-1. 散列表的一些算法应用
+2. 散列表的一些算法应用
 + [从头到尾解析Hash表算法](http://blog.csdn.net/v_july_v/article/details/6256463)
 
 散列表可以和Java中集合HashMap等对照学习。
