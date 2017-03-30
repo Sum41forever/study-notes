@@ -19,6 +19,12 @@ PS:`因为原始版本是在Blog上写的，所以有些MarkDown语法和GitHub�
 1. 基础
   + [Java常用数据结构](https://github.com/Sum41forever/study-notes/blob/master/Java/Java%20Data%20Structure.md)
 
+## Programming-Tools
+1. [Git 日常分支操作](https://github.com/Sum41forever/study-notes/blob/master/Programming-Tools/Git%20%E6%97%A5%E5%B8%B8%E5%88%86%E6%94%AF%E6%93%8D%E4%BD%9C.md)
+1. [IntelliJ 快捷键](https://github.com/Sum41forever/study-notes/blob/master/Programming-Tools/IntelliJ%20%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
+1. [如何提高 Android Studio 编译速度](https://github.com/Sum41forever/study-notes/blob/master/Programming-Tools/%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98%20Android%20Studio%20%E7%BC%96%E8%AF%91%E9%80%9F%E5%BA%A6.md)
+
+
 
 ## Japanese
 1. 基础入门
