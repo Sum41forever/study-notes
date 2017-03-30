@@ -12,7 +12,7 @@ PS:`因为原始版本是在Blog上写的，所以有些MarkDown语法和GitHub�
   + [Android 常用封装与技巧](https://github.com/Sum41forever/study-notes/blob/master/Android/Android%20%E5%B8%B8%E7%94%A8%E5%B0%81%E8%A3%85%E4%B8%8E%E6%8A%80%E5%B7%A7.md)
 
 3. Android 常用第三方库
-  + [Android 常用封装与技巧](https://github.com/Sum41forever/study-notes/blob/master/Android/Android%20%E5%B8%B8%E7%94%A8%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93.md)
+  + [Android 常用第三方库](https://github.com/Sum41forever/study-notes/blob/master/Android/Android%20%E5%B8%B8%E7%94%A8%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93.md)
 
 
 ## Java
