@@ -4,7 +4,7 @@
 |`UI`　| |
 | :------- | :------- |
 | [ShoppingMall商场demo，各种布局](https://github.com/liangchengcheng/ShoppingMall)| ![ShoppingMall UI](http://onltypwxd.bkt.clouddn.com/Android_Ui_Sample_Shop.jpg?imageView2/1/w/250)|
-|[腾讯视频TV版 UI](https://github.com/liangchengcheng/ShoppingMall)| ![TVSample](http://onltypwxd.bkt.clouddn.com/Android_Ui_Sample_TV.jpg?imageView2/1/w/250)|
+|[腾讯视频TV版 UI](https://github.com/hejunlin2013/TVSample)| ![TVSample](http://onltypwxd.bkt.clouddn.com/Android_Ui_Sample_TV.jpg?imageView2/1/w/250)|
 
 
 ---
