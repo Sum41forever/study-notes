@@ -15,7 +15,7 @@ PS:`因为原始版本是在Blog上写的，所以有些MarkDown语法和GitHub�
   + [Android 常用第三方库](https://github.com/Sum41forever/study-notes/blob/master/Android/Android%20%E5%B8%B8%E7%94%A8%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93.md)
   
 1. Android 框架学习
-  + [Dagger 2 学习笔记](https://github.com/Sum41forever/study-notes/blob/master/Android/Dagger%202%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
++ [Dagger 2 学习笔记](https://github.com/Sum41forever/study-notes/blob/master/Android/Dagger%202%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 
 ## Java
 1. 基础
