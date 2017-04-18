@@ -8,12 +8,14 @@ PS:`因为原始版本是在Blog上写的，所以有些MarkDown语法和GitHub�
   + [Android 可复用的App](https://github.com/Sum41forever/study-notes/blob/master/Android/Android%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%9A%84App.md)
   + [Android 可以复用的UI](https://github.com/Sum41forever/study-notes/blob/master/Android/Android%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%9A%84UI%E5%B8%83%E5%B1%80.md)
 
-2. Android 技巧
+1. Android 技巧
   + [Android 常用封装与技巧](https://github.com/Sum41forever/study-notes/blob/master/Android/Android%20%E5%B8%B8%E7%94%A8%E5%B0%81%E8%A3%85%E4%B8%8E%E6%8A%80%E5%B7%A7.md)
 
-3. Android 常用第三方库
+1. Android 常用第三方库
   + [Android 常用第三方库](https://github.com/Sum41forever/study-notes/blob/master/Android/Android%20%E5%B8%B8%E7%94%A8%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93.md)
-
+  
+1. Android 框架学习
+  + [Dagger 2 学习笔记](https://github.com/Sum41forever/study-notes/blob/master/Android/Dagger%202%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 
 ## Java
 1. 基础
@@ -23,7 +25,7 @@ PS:`因为原始版本是在Blog上写的，所以有些MarkDown语法和GitHub�
 1. [Git 日常分支操作](https://github.com/Sum41forever/study-notes/blob/master/Programming-Tools/Git%20%E6%97%A5%E5%B8%B8%E5%88%86%E6%94%AF%E6%93%8D%E4%BD%9C.md)
 1. [IntelliJ 快捷键](https://github.com/Sum41forever/study-notes/blob/master/Programming-Tools/IntelliJ%20%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
 1. [如何提高 Android Studio 编译速度](https://github.com/Sum41forever/study-notes/blob/master/Programming-Tools/%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98%20Android%20Studio%20%E7%BC%96%E8%AF%91%E9%80%9F%E5%BA%A6.md)
-
+1. [Vim 快捷键](https://github.com/Sum41forever/study-notes/blob/master/Programming-Tools/Vim%20%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
 
 
 ## Japanese
