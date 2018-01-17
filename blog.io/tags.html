@@ -1,26 +1,32 @@
-{{template "header.html" .}}
+{{template "0-a.html" $}}
+<!-- main start -->
+<div class="my-main">
 
+<!-- ****************************************************** -->
 <div id="postsContainer">
-	<div class="container">
-	    <h2>标签</h2>
-	</div>
-	<div id="posts">
-		
-		<div class="each-post">
-		    <ul>
-		        {{range $.tags}}
-		        <li>
-	                <a href="{{$.tagPostsUrl}}/{{.Tag}}">
-	                    {{.Tag}} {{.Count}}
-	                </a> 
-    		    </li>
-    		    {{end}}
-		    </ul>
-		</div>
-	</div>
+<div class="container">
 </div>
+<div id="posts">
 
-{{template "footer.html" .}}
+<div class="each-post">
+<div class="desc">
+<ul>
+{{range $.tags}}
+<li class="fa fa-tag">
+<a href="{{$.tagPostsUrl}}/{{.Tag}}">
+{{.Tag}} {{.Count}}
+</a>
+</li><br>
+{{end}}
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- ****************************************************** -->
 
-</body>
-</html>
+</div>
+<!-- main end -->
+{{template "0-b.html" $}}
+{{template "0-s-highlight.html" $}}
+{{template "0-c.html" $}}

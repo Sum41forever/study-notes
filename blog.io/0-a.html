@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<link rel="Shortcut icon" href="{{$.themeBaseUrl}}/images/{{$.themeInfo.WebImgName}}">
+<link href='//cdn.webfont.youziku.com/webfonts/nomal/97411/44770/586f9ba7f629da0f403e604f.css' rel='stylesheet' type='text/css' />
+<link href='//cdn.webfont.youziku.com/webfonts/nomal/97411/46749/5870ea4ef629da0f403e6112.css' rel='stylesheet' type='text/css' />
+<script src="{{$.themeBaseUrl}}/jquery-1.11.0.min.js"></script>
+<meta name="renderer" content="webkit"/>
+<meta http-equiv="Cache-Control" content="no-siteapp"/>
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="format-detection" content="telephone=no, email=no"/>
+<meta name="author" content="mrbird"> 
+<meta name="toTop" content="true">
+<!--link rel="icon" type="image/png" href="{{$.themeBaseUrl}}/images/blogicon.png"/-->
+<title>
+{{if $.curIsIndex}}
+    {{$.blogInfo.Title}}
+{{else if $.curIsCate}}
+    {{$.curCateTitle}}-{{$.blogInfo.Title}}
+{{else if $.curIsSearch}}
+    搜索-{{$.keywords}}-{{$.blogInfo.Title}}
+{{else if $.curIsTags}}
+    标签-{{$.blogInfo.Title}}
+{{else if $.curIsTagPosts}}
+    标签-{{$.curTag}}-{{$.blogInfo.Title}}
+{{else if $.curIsPost}}
+	{{$.post.Title}}-{{$.blogInfo.Title}}
+{{else if $.curIsSingle}}
+	{{$.single.Title}}-{{$.blogInfo.Title}}
+{{else if $.curIsArchive}}
+	目录-{{$.blogInfo.Title}}
+{{else}}
+	{{$.blogInfo.Title}}
+{{end}}
+</title>
+<link href="{{$.fontAwesomeUrl}}" rel="stylesheet">
+<link href="{{$.themeBaseUrl}}/style.css" rel="stylesheet">
+<style>
+
+</style>
+<!-- 以下两个插件用于在IE8以及以下版本浏览器支持HTML5元素和媒体查询，如果不需要用可以移除 -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<!--=======================分割线=========================-->
+<body ondragstart="return false;">
+<div class="page">
+{{template "00-header.html" $}}
+<div class="my-wrap">

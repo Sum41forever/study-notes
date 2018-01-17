@@ -18,10 +18,12 @@
     {{set . "nextPageUrl" "#"}}
 {{end}}
 
-{{$.paging.CurPage}}/{{$.paging.TotalPage}}
+<div class="my-pager">
 <ul class="pager">
-	<li class="{{$.prePageClass}}"><a href="{{$.prePageUrl}}">上一篇</a></li>
-	<li class="{{$.nextPageClass}}"><a href="{{$.nextPageUrl}}">下一篇</a></li>
+    <li class="{{$.prePageClass}}"><a href="{{$.prePageUrl}}">Pre</a></li>
+    <span>{{$.paging.CurPage}} of {{$.paging.TotalPage}}</span>
+    <li class="{{$.nextPageClass}}" ><a href="{{$.nextPageUrl}}">Next</a></li>
 </ul>
+</div>
 
 {{end}}

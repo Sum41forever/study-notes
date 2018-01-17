@@ -1,0 +1,63 @@
+<aside class="my-aside">
+<!-- aside start -->
+<div id="beforeAffix"></div>
+<div class="topmark" id="topmark2"></div>
+<div id="theAffix">
+<div>
+    <p class="widget-title1">About Me</p>
+    <div id="blogPhoto">
+     <img src="{{$.themeBaseUrl}}/images/{{$.themeInfo.BlogImgName}}"/>
+    </div>
+    <div id="blogMeno">
+        <p>{{$.themeInfo.BlogAutograph}}</p>
+    </div>
+    <div id="buttons" >
+    	<button class="meButton"  onclick="window.open('tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin={{$.themeInfo.QQ}}&website=www.oicqzone.com')"><i class="fa fa-qq myIcons qqIcon" title="QQ"></i></button>
+        <button class="meButton buttonTwo"  onclick="window.open('{{$.themeInfo.Facebook}}')"><i class="fa fa-github myIcons facebookIcon" title="Github"></i></button>
+        <button class="meButton buttonTwo"  onclick="window.open('{{$.themeInfo.Weico}}')"><i class="fa fa-steam myIcons weiboIcon" title="Steam"></i></button>
+    </div>
+</div>
+<!--
+<div class="widget widget-recent5" >
+	<p class="widget-title">Recent Posts</p>
+	<ul>
+		{{range .recentPosts}}
+		<li title="{{.Title}}"><a href="{{$.postUrl}}/{{.UrlTitle}}">
+			{{if .Title}}
+				{{.Title}}
+		    {{else}}
+				Untitled
+			{{end}}
+			</a></li>
+		{{end}}
+	</ul>
+</div>
+-->
+<div class="widget widget-friendlinks">
+	<p class="widget-title">Friend Links</p>
+	<ul>
+		{{if $.themeInfo.FriendLinks}}
+			{{range $.themeInfo.FriendLinks}}
+			<li><a href="{{.Url}}" target="_blank">{{.Title}}</a></li>
+			{{end}}
+		{{end}}
+	</ul>
+</div>
+<div class="widget widget-search">
+	<form class="navbar-form navbar-right" id="search" onsubmit="search(event);return false;">
+		<div class="input-group">
+		<span class="input-group-addon" id="searchIcon" onclick="search(event);"><i class="fa fa-search"></i></span>
+		<input type="text" style="font-family: 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;color:#6D7569;outline-color:#c05b4d;"  placeholder="Search" id="searchInput" class="form-control" value="{{.keywords}}">
+		</div>
+	</form>
+</div>
+
+</div>
+<div id="afterAffix"></div>
+<!-- aside end -->
+
+
+<script type="text/javascript">
+</script>
+
+</aside>

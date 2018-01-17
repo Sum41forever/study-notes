@@ -1,45 +1,37 @@
-{{template "header.html" .}}
-
+{{template "0-a.html" $}}
+<!-- main start -->
+<div class="my-main">
+<!-- ****************************************************** -->
 <div id="postsContainer">
-	<div class="container">
-	    <h2>Archives {{if $.curCateTitle}} - {{$.curCateTitle}}{{end}}</h2>
-	</div>
-	<div id="posts">
-		
-		<div class="each-post">
-		    <ul>
-		        {{range $.archives}}
-		        {{$year := .Year}}
-		       
-    		            {{range .MonthAchives}}
-        		        
-        		          <span class="archive-month">{{$year}}-{{.Month}}</span>
-        		          <ul>
-        		                {{range .Posts}}
-        		                <li>
-        		                    {{dateFormat .PublicTime "2006-01-02"}} <a href="{{$.postUrl}}/{{.UrlTitle}}">
-        		                    
-        		                    {{if .Title}}
-        		                        {{.Title}}
-        		                    {{else}}
-        		                        Untitled
-        		                    {{end}} 
-        		                    </a>
-        		                </li>
-        		                {{end}}
-        		           </ul>
-        		            
-        		        
-        		        {{end}}
-        		    
-    		    
-    		    {{end}}
-		    </ul>
-		</div>
-	</div>
+
+    <div id="posts">
+
+        <div class="each-post">
+            <ul class="desc">
+                {{range $.archives}}
+                {{$year := .Year}}
+                {{range .MonthAchives}}
+                <span class="archive-month">{{$year}}-{{.Month}}</span>
+            <ul>
+            {{range .Posts}}
+                <li>
+                    {{dateFormat .PublicTime "2006-01-02"}} <a href="{{$.postUrl}}/{{.UrlTitle}}">{{.Title}}</a>
+                </li>
+            {{end}}
+            </ul>
+        {{end}}
+    {{end}}
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- ****************************************************** -->
+<script>
+    
+</script>
 </div>
 
-{{template "footer.html" .}}
-
-</body>
-</html>
+<!-- main end -->
+{{template "0-b.html" $}}
+{{template "0-s-highlight.html" $}}
+{{template "0-c.html" $}}

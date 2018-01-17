@@ -1,0 +1,62 @@
+</div><!-- //my-wrap// -->
+{{template "00-footer.html" $}}
+{{template "0-s-forsearch.html" $}}
+</div><!-- //page// -->
+<link href="{{$.themeBaseUrl}}/player.css" rel="stylesheet">
+<link href="{{$.themeBaseUrl}}/sweetalert.css" rel="stylesheet">
+<div id="QPlayer">
+<div id="pContent">
+	<div id="player">
+		<span class="cover"></span>
+		<div class="ctrl">
+			<div class="musicTag marquee">
+				<strong>Title</strong>
+				 <span> - </span>
+				<span class="artist">Artist</span>
+			</div>
+			<div class="progress">
+				<div class="timer left">0:00</div>
+				<div class="contr">
+					<div class="rewind icon"></div>
+					<div class="playback icon"></div>
+					<div class="fastforward icon"></div>
+				</div>
+				<div class="right">
+					<div class="liebiao icon"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ssBtn">
+	        <div class="adf"></div>
+    </div>
+</div>
+<ol id="playlist"></ol>
+</div>
+<script src="{{$.themeBaseUrl}}/marquee.js"></script>
+<script>
+  var playlist = {{$.themeInfo.MusicUrl}};
+  var isRotate = true;
+  var autoplay = false;
+  var themeBaseUrl = "{{$.themeBaseUrl}}"; // scroll-top.js要用
+</script>
+<script src="{{$.themeBaseUrl}}/player.js"></script>
+<script src="{{$.themeBaseUrl}}/scroll-top.js"></script>
+<script src="{{$.themeBaseUrl}}/sweetalert.min.js"></script>
+<script>
+    function bgChange(){
+    	var lis= $('.lib');
+    	for(var i=0; i<lis.length; i+=2)
+    	lis[i].style.background = 'rgba(246, 246, 246, 0.5)';
+    }
+    window.onload = bgChange;
+</script>
+<script src="{{$.themeBaseUrl}}/activate-power-mode.js"></script>
+<script>
+    POWERMODE.colorful = true; 
+    POWERMODE.shake = false; 
+    document.body.addEventListener('input', POWERMODE);
+</script>
+</body>
+<!--=======================分割线=========================-->
+</html>

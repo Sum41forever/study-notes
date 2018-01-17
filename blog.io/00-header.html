@@ -1,0 +1,74 @@
+<header class="my-header">
+<hgroup>
+{{$username := .userInfo.Username}}
+
+{{if $.curIsIndex}}
+<nav class="cl-effect-16">
+	<h1 href="#" data-hover="{{$.blogInfo.Title}}" id="blogTitle">{{$.blogInfo.Title}}</h1>
+</nav>
+	<p class="sm-info" id="blogMsg" style="display:block;"></p>
+	<script src="{{$.themeBaseUrl}}/printword.js"></script>
+	<script>
+        jQuery(document).ready(function($) {
+    $("#blogMsg").lbyl({
+        content: "✎ "+{{$.blogInfo.SubTitle}},
+        speed: 100,
+        type: 'show',
+        finished: function() {}
+    })
+});
+	</script>
+{{else if $.curIsCate}}
+	<h1 style="letter-spacing: 1px;font-family: 'Microsoft YaHei UI Light';color:#666666;">{{$.curCateTitle}}</h1>
+{{else if $.curIsSearch}}
+	<h1 style="letter-spacing: 1px;font-family: 'Microsoft YaHei UI Light';color:#666666;">Search-{{$.keywords}}</h1>
+{{else if $.curIsTags}}
+	<h1 style="letter-spacing: 1px;font-family: 'Microsoft YaHei UI Light';color:#666666;">Tags</h1>
+{{else if $.curIsTagPosts}}
+	<h1 style="letter-spacing: 1px;font-family:'Microsoft YaHei UI Light';color:#666666;">Tag-{{$.curTag}}</h1>
+{{else if $.curIsArchive}}
+	<h1 style="letter-spacing: 1px;font-family:'Microsoft YaHei UI Light';color:#666666;">Archives</h1>
+{{else if $.curIsPost}}
+    <h1 style="letter-spacing: 1px;font-family:'Microsoft YaHei UI Light';color:#DA3E3E;opacity:0.89;">{{$.post.Title}}</h1>
+{{else if $.curIsSingle}}
+	<h1 style="letter-spacing: 1px;font-family:'Microsoft YaHei UI Light';color:#666666;">{{$.single.Title}}</h1>
+{{else}}
+	<h2 style="letter-spacing: 1px;font-family:'Microsoft YaHei UI Light';color:#DA3E3E;opacity:0.89;"> ಠ_ಠ </h2>
+{{end}}
+
+</hgroup>
+
+<nav class="my-nav">
+<div class="my-menu" style="color:red;">
+<ul>
+<!-- 主页 -->
+<li class="{{if $.curIsIndex}}active{{end}}">
+	<a href="{{.indexUrl}}">Home</a>
+</li>
+<!-- 分类页 -->
+{{range $.cates}}
+<li class="{{if eq .CateId $.curCateId}}active{{end}}">
+	<a href="{{$.cateUrl}}/{{.UrlTitle}}">{{.Title}}</a>
+</li>
+{{end}}
+
+<!-- 单页 -->
+{{range $.singles}}
+<li class="{{if eq $.curSingleId .SingleId}}active{{end}}">
+	<a href="{{$.singleUrl}}/{{.UrlTitle}}">{{.Title}}</a>
+</li>
+{{end}}
+<li class="{{if $.curIsTags}}active{{end}}">
+	<a href="{{.tagsUrl}}">Tags</a> 
+</li>
+<li class="{{if $.curIsArchive}}active{{end}}">
+	<a href="{{.archiveUrl}}">Archives</a>
+</li>
+
+</ul>
+</div>
+</nav>
+</header>
+<script type="text/javascript">
+  console.log("- Welcome to {{$.blogInfo.Title}} -");
+</script>

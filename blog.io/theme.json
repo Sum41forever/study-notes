@@ -1,28 +1,58 @@
 /*
 以下是本主题的配置, 采用JSON格式
-其中Name, Version, Author, AuthorUrl是必填项(注意首字大写)
-你也可以定义其它的配置, 如FriendLinks, 在模板文件使用 $.themeInfo.FriendLinks来获取值
+其中Name, Version, Author, AuthorUrl请勿更改
+你也可以定义其它的配置, 在模板文件使用 $.themeInfo.Xxxxx来获取值(注意首字大写)
 
 注意: 
 1) JSON语法严格, 键必须用双引号, 最后不得有空','来结尾
 2) 以下配置不能包含任何注释, 不然解析会出错!
 
-请在此解析所有配置
-* Name 主题名
-* Version 主题版本
-* Author 主题的作者
-* AuthorUrl 作者的博客链接或相关链接
-
-* FriendLinks 友情链接
-
+配置说明：
+* Name 主题名。
+* Desc 主题说明。
+* Version 主题版本。
+* Author 主题的作者。
+* AuthorUrl 作者的链接。
+* BlogCopyrightTime 博客Copyright时间。
+* QQ 配置您的QQ。
+* Weico 配置您的微博。
+* Facebook 配置您的facebook
+* FriendLinks 友情链接。
+* BlogImgName 博客About Me图片
+* WebImgName 网页小图标
+* MusicUrl 配置音乐URL
+* ErrorImgName 404页面图片
+* BlogAutograph 博客About Me签名
 */
+/* 如有疑问，可到mrbird.leanote.com下留言 */
 {
-    "Name": "Leanote elegant v2",
+    "Name": "Conciseness",
+    "Desc": "可在theme.json文件中修改blog配置",
     "Version": "1.0",
-    "Author": "leanote.com",
-    "AuthorUrl": "http://leanote.com",
+    "Author": "mrbird",
+    "AuthorUrl": "http://mrbird.leanote.com/",
+    "QQ": "954664828",
+    "Weico": "http://steamcommunity.com/profiles/76561198054777832/",
+    "Facebook": "https://github.com/Sum41forever",
     "FriendLinks": [
-        {"Title": "XDroid", "Url": "https://limedroid.github.io/"}
-
+        {"Title": "XDroid", "Url": "https://limedroid.github.io/"},
+        {"Title": "jessyan", "Url": "http://jessyan.me"},
+        {"Title": "xiaobailong24", "Url": "https://xiaobailong24.me"}
+    ],
+    "BlogCopyrightTime": "2016~2017",
+    "BlogAutograph": "Sum41forever",
+    "BlogImgName": "blogHead.jpg",
+    "WebImgName": "webImg.png",
+    "ErrorImgName": "robot.png",
+    "MusicUrl": [
+        {"title": "END THEME","artist":"天門","mp3": "http://fs.open.kugou.com/c17d907dc7498e84bf2f2d4762e16526/5a5e27a8/G045/M03/10/0B/bQ0DAFYl4UyAFmnVACo7mUs6IIE348.mp3","cover": "http://p1.music.126.net/1sw_ptPeI_GNm58VBW1udQ==/2504687488135369.jpg?param=130y130"},
+        {"title": "回梦游仙","artist":"骆集益","mp3": "http://fs.open.kugou.com/493592e27ed4d8b0547cbc5064d1b851/5a5e2913/G012/M00/1A/14/rIYBAFT__3KAeHz0AB69ADY2XXs954.mp3","cover": "http://p1.music.126.net/0pni7yz15rknO9gE-9gJGQ==/18763165929885295.jpg?param=130y130"},
+		{"title": "潮鳴り","artist":"折戸伸治","mp3": "http://fs.open.kugou.com/7ffccf55d2450da274628603c9b1ac44/5a5e2a00/G010/M0A/00/0D/qoYBAFUJEkKAC6YQACagMrSIoEs288.mp3","cover": "http://p1.music.126.net/ckfEE9UUGcnGHylQJ12ENA==/670702092966093.jpg?param=130y130"},
+		{"title": "For River","artist":"高瞰","mp3": "http://fs.open.kugou.com/a1752efc434765e2cf8da41df98a0a5f/5a5e2b05/G041/M01/02/01/CZQEAFYfUQiAQNwKABhjb8xbvQ4844.mp3","cover": "http://p1.music.126.net/0AYWra9rCzgeprGp6OUyUw==/868614185993997.jpg?param=130y130"},
+        {"title": "三色·绘恋","artist":"雲翼星辰","mp3": "http://fs.open.kugou.com/fe6635bc0a5c39ce6a38802f1c85ef5c/5a5e1f90/G109/M08/18/19/TZQEAFnxmcOAE-1fABi9O0Dc_RI005.mp3","cover": "https://p1.music.126.net/HQLyWU8UdrrD3TvBC56TFw==/109951163043278234.jpg?param=130y130"},
+        {"title": "Departures ~Blessing~","artist":"Egoist","mp3": "http://fs.open.kugou.com/171d023a9e727093c8db2e1b2a6c1432/5a5e2012/G011/M05/04/17/Sw0DAFUOao2AEXGQACY6_CruDe0265.mp3","cover": "https://p1.music.126.net/tX56YfuLpHtYWvD40mhwhg==/4451922580867719.jpg?param=130y130"},
+        {"title": "你·天空·奇迹","artist":"Egoist","mp3": "http://fs.open.kugou.com/705a9652fd89e74e1cdc909b5ae6cece/5a5e211e/G002/M0A/02/08/Qg0DAFS72W6Ae4jmAEtNIyMToAo526.mp3","cover": "https://p1.music.126.net/0ZSpmSRLA6n2VsZhkIDtVQ==/19023750184019568.jpg?param=130y130"},
+        {"title": "エウテルペ ~Silence~","artist":"Egoist","mp3": "http://fs.open.kugou.com/d188c47724f47e77151eaada2c1e4da4/5a5e1eaf/G003/M00/05/15/o4YBAFUHsbaAEYi2ABanURkXMhI341.mp3","cover": "http://imge.kugou.com/stdmusic/150/20150401/20150401024522299660.jpg"}
+      
     ]
 }

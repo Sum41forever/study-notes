@@ -1,0 +1,74 @@
+<aside class="my-aside">
+<!-- aside start -->
+{{if $.curIsPost}}
+<div id="beforeAffix">
+	<div class="widget widget-postinfo created-time sm-info">
+		<i class="fa fa-clock-o"></i>&nbsp;{{$.post.PublicTime | datetime}}&nbsp;&nbsp;<br/>
+		<span class="fa fa-eye"></span>&nbsp;{{$.post.ReadNum}}&nbsp;&nbsp;
+		<span class="fa fa-thumbs-o-up" id="likeBtn" style="cursor:pointer;" title="点个赞？"></span>&nbsp;<span id="likeNum">{{$.post.LikeNum}}</span>&nbsp;&nbsp;
+		<span class="fa fa-comments-o"  id="commentBtnn" style="cursor:pointer;" title="留个言？"></span>&nbsp;{{$.post.CommentNum}}&nbsp;&nbsp;<br/>
+		{{if $.post.Tags}}<i class="fa fa-bookmark-o"></i>&nbsp;{{blogTags $ $.post.Tags}}{{end}}
+	</div>
+</div>
+
+<div class="topmark" id="topmark2"></div>
+
+<div id="theAffix">
+<div class="widget widget-postnav" id="postNav">
+    <h3 class="widget-title">Contents</h3>
+    <div id="postNavContent">
+    </div>
+</div>
+<script type="text/javascript">
+    
+</script>
+</div>
+
+<div id="afterAffix">
+
+<script type="text/x-jsrender" id="tLikers">
+[[for users]]
+  <a id="liker_[[:UserId]]" title="[[:BlogTitle]]" href="[[:BlogUrl]]" target="_blank" class="voter">
+    [[if Logo]]
+      <img alt="avatar" class="avatar-small" src="[[:Logo]]">
+    [[else]]
+      <img alt="avatar" class="avatar-small" src="/images/blog/default_avatar.png">
+    [[/if]]
+  </a>
+[[/for]]
+</script>
+
+
+<style type="text/css">
+#theAffix{transition:all 0.7s;} 
+</style>
+
+<script type="text/javascript">
+$(window).scroll(function(){
+  var tops=$(window).scrollTop();
+  var hof_before=$("#beforeAffix").outerHeight(true);
+  var hof_post=$("#postsContainer").outerHeight();
+  var hof_affix=$("#theAffix").outerHeight();
+  var hof_after=$("#afterAffix").outerHeight();
+  var top1=$("#topmark1").offset().top;
+  var top2=$("#topmark2").offset().top;
+  var top3=$("#topmark3").offset().top;
+  var topd= top3 - hof_affix - hof_after;
+  var mtop=30;
+  var v1=0;
+  var v2=topd-top2;
+  var v3=tops-top2+mtop;
+  if(tops <= top2-mtop) {$("#theAffix").css("margin-top",v1)}
+  else if(tops >= topd-mtop) {$("#theAffix").css("margin-top",v2)}
+  else{$("#theAffix").css("margin-top",v3)}
+});
+</script>
+
+
+{{else if $.curIsSingle}}
+	<div class="created-time sm-info">
+		<i class="fa fa-clock-o"></i>&nbsp;{{$.single.UpdatedTime | datetime}} 
+	</div>
+{{end}}
+<!-- aside end -->
+</aside>
