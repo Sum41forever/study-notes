@@ -1,5 +1,4 @@
-http://progressed.io/bar/28?title=progress
-![Progress](http://progressed.io/bar/50?title=progress)   
+![Progress](http://progressed.io/bar/50?title=进度progress)   
 # study-notes
 **工作过程中的积累，看书的笔记等等**
 
