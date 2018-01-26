@@ -23,9 +23,13 @@ PS:`因为原始版本是在Blog上写的，所以有些MarkDown语法和GitHub�
 + [Dagger 2 学习笔记](https://github.com/Sum41forever/study-notes/blob/master/Android/Dagger%202%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 + [Android Rxlifecycle 实现原理及过程](https://github.com/Sum41forever/study-notes/blob/master/Android/Android%20Rxlifecycle%20%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E5%8F%8A%E8%BF%87%E7%A8%8B.md)
 
-## Java
+## IT
+
+### Java
 1. 基础
-  + [Java常用数据结构](https://github.com/Sum41forever/study-notes/blob/master/Java/Java%20Data%20Structure.md)
+  + [Java常用数据结构](https://github.com/Sum41forever/study-notes/blob/master/IT/Java/Java%20Data%20Structure.md)
+### Kotlin
+  + [Kotlin基础语法.md](https://github.com/Sum41forever/study-notes/blob/master/Java/Java%20Data%20Structure.md)
 
 ## Programming-Tools
 1. [Git 日常分支操作](https://github.com/Sum41forever/study-notes/blob/master/Programming-Tools/Git%20%E6%97%A5%E5%B8%B8%E5%88%86%E6%94%AF%E6%93%8D%E4%BD%9C.md)
