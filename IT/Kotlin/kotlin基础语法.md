@@ -173,7 +173,7 @@ fun countClicks(window: JComponent) {
 
   这称为对象声明。并且它总是在 object 关键字后跟一个名称。 就像变量声明一样，对象声明不是一个表达式，不能用在赋值语句的右边。要引用该对象，我们直接使用其名称即可：**DataProviderManager.registerDataProvider(……)**
   >注意：对象声明不能在局部作用域（即直接嵌套在函数内部），但是它们可以嵌套到其他对象声明或非内部类中。
-* ####[伴生对象](https://www.kotlincn.net/docs/reference/object-declarations.html#伴生对象)
+* #### [伴生对象](https://www.kotlincn.net/docs/reference/object-declarations.html#伴生对象)
   与 Java 或 C# 不同，**在 Kotlin 中类没有静态方法**。在大多数情况下，它建议简单地使用 包级函数。
   类内部的对象声明可以用 *companion* 关键字标记：
 
