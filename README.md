@@ -28,7 +28,7 @@ PS:`因为原始版本是在Blog上写的，所以有些MarkDown语法和GitHub�
 ### Java
   + [Java常用数据结构](https://github.com/Sum41forever/study-notes/blob/master/IT/Java/Java%20Data%20Structure.md)
 ### Kotlin
-  + [Kotlin基础语法.md]https://github.com/Sum41forever/study-notes/blob/master/IT/Kotlin/kotlin%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.md)
+  + [Kotlin基础语法.md](https://github.com/Sum41forever/study-notes/blob/master/IT/Kotlin/kotlin%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.md)
 
 ## Programming-Tools
 1. [Git 日常分支操作](https://github.com/Sum41forever/study-notes/blob/master/Programming-Tools/Git%20%E6%97%A5%E5%B8%B8%E5%88%86%E6%94%AF%E6%93%8D%E4%BD%9C.md)
