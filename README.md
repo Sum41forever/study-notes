@@ -7,6 +7,8 @@ PS:`因为原始版本是在Blog上写的，所以有些MarkDown语法和GitHub�
 ### History
  + [万历十五年](https://github.com/Sum41forever/study-notes/blob/master/Book/History/万历十五年.md)
 
+### [Essay](https://github.com/Sum41forever/study-notes/tree/master/Book/Essay)
+### [Blog Article](https://github.com/Sum41forever/study-notes/tree/master/Book/Blog%20Article)
 
 ## Android
 1. Android 可复用资源
