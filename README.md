@@ -10,6 +10,10 @@ PS:`因为原始版本是在Blog上写的，所以有些MarkDown语法和GitHub�
 ### [Essay](https://github.com/Sum41forever/study-notes/tree/master/Book/Essay)
 ### [Blog Article](https://github.com/Sum41forever/study-notes/tree/master/Book/Blog%20Article)
 
+## Music
+### [Music Course](https://github.com/Sum41forever/study-notes/blob/master/Music/Course/%E5%85%A5%E9%97%A8%E9%98%B6%E6%AE%B5%E6%95%99%E6%9D%90.md)
+### [Music Theory](https://github.com/Sum41forever/study-notes/blob/master/Music/Theory/%E9%9B%B6%E5%9F%BA%E7%A1%80%E4%B9%90%E7%90%86%E6%95%99%E7%A8%8B.md)
+
 ## Android
 1. Android 可复用资源
   + [Android 可复用的App](https://github.com/Sum41forever/study-notes/blob/master/Android/Android%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%9A%84App.md)
