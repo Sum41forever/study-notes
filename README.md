@@ -4,9 +4,8 @@
 
 PS:`因为原始版本是在Blog上写的，所以有些MarkDown语法和GitHub会有所不同，显示可能会有问题`
 ## Book
-### History
- + [万历十五年](https://github.com/Sum41forever/study-notes/blob/master/Book/History/万历十五年.md)
-
+###[ History](https://github.com/Sum41forever/study-notes/tree/master/Book/History)
+### [Literatures](https://github.com/Sum41forever/study-notes/tree/master/Book/Literatures)
 ### [Essay](https://github.com/Sum41forever/study-notes/tree/master/Book/Essay)
 ### [Blog Article](https://github.com/Sum41forever/study-notes/tree/master/Book/Blog%20Article)
 
