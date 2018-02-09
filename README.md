@@ -1,17 +1,17 @@
 ![Progress](http://progressed.io/bar/50?title=进度progress)   
-# study-notes
+# Study-Notes
 **工作过程中的积累，看书的笔记等等**
 
 PS:`因为原始版本是在Blog上写的，所以有些MarkDown语法和GitHub会有所不同，显示可能会有问题`
-## Book
-###[ History](https://github.com/Sum41forever/study-notes/tree/master/Book/History)
-### [Literatures](https://github.com/Sum41forever/study-notes/tree/master/Book/Literatures)
-### [Essay](https://github.com/Sum41forever/study-notes/tree/master/Book/Essay)
-### [Blog Article](https://github.com/Sum41forever/study-notes/tree/master/Book/Blog%20Article)
+## 阅读
+### [历史](https://github.com/Sum41forever/study-notes/tree/master/Book/History)
+### [小说](https://github.com/Sum41forever/study-notes/tree/master/Book/Literatures)
+### [散文](https://github.com/Sum41forever/study-notes/tree/master/Book/Essay)
+### [博客收录](https://github.com/Sum41forever/study-notes/tree/master/Book/Blog%20Article)
 
-## Music
-### [Music Course](https://github.com/Sum41forever/study-notes/blob/master/Music/Course/%E5%85%A5%E9%97%A8%E9%98%B6%E6%AE%B5%E6%95%99%E6%9D%90.md)
-### [Music Theory](https://github.com/Sum41forever/study-notes/blob/master/Music/Theory/%E9%9B%B6%E5%9F%BA%E7%A1%80%E4%B9%90%E7%90%86%E6%95%99%E7%A8%8B.md)
+## 音乐
+### [音乐教程](https://github.com/Sum41forever/study-notes/blob/master/Music/Course/%E5%85%A5%E9%97%A8%E9%98%B6%E6%AE%B5%E6%95%99%E6%9D%90.md)
+### [音乐理论](https://github.com/Sum41forever/study-notes/blob/master/Music/Theory/%E9%9B%B6%E5%9F%BA%E7%A1%80%E4%B9%90%E7%90%86%E6%95%99%E7%A8%8B.md)
 
 ## Android
 1. Android 可复用资源
@@ -35,7 +35,7 @@ PS:`因为原始版本是在Blog上写的，所以有些MarkDown语法和GitHub�
 ### Kotlin
   + [Kotlin基础语法.md](https://github.com/Sum41forever/study-notes/blob/master/IT/Kotlin/kotlin%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.md)
 
-## Programming-Tools
+## 编程工具
 1. [Git 日常分支操作](https://github.com/Sum41forever/study-notes/blob/master/Programming-Tools/Git%20%E6%97%A5%E5%B8%B8%E5%88%86%E6%94%AF%E6%93%8D%E4%BD%9C.md)
 2. [IntelliJ 快捷键](https://github.com/Sum41forever/study-notes/blob/master/Programming-Tools/IntelliJ%20%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
 3. [如何提高 Android Studio 编译速度](https://github.com/Sum41forever/study-notes/blob/master/Programming-Tools/%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98%20Android%20Studio%20%E7%BC%96%E8%AF%91%E9%80%9F%E5%BA%A6.md)
@@ -43,7 +43,7 @@ PS:`因为原始版本是在Blog上写的，所以有些MarkDown语法和GitHub�
 5. [编程规范](https://github.com/Sum41forever/study-notes/blob/master/Programming-Tools/%E7%BC%96%E7%A8%8B%E8%A7%84%E8%8C%83.md)
 
 
-## Japanese
+## 日语学习
 1. 基础入门
   + [Vol.1 50音入门](https://github.com/Sum41forever/study-notes/blob/master/japanese/Vol.1%2050%E9%9F%B3%E5%85%A5%E9%97%A8.md)
   + [Vol.2.词汇性质](https://github.com/Sum41forever/study-notes/blob/master/japanese/Vol.2.%E8%AF%8D%E6%B1%87%E6%80%A7%E8%B4%A8.md)
