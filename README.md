@@ -1,5 +1,7 @@
-![Progress](http://progressed.io/bar/50?title=进度progress)   
-# Study-Notes
+![Progress](http://progressed.io/bar/50?title= progress )   ![last-update](https://img.shields.io/eclipse-marketplace/last-update/notepad4e.svg)  ![license](https://img.shields.io/badge/license-Apache%20License%202.0-orange.svg) 
+
+Study-Notes
+
 **工作过程中的积累，看书的笔记等等**
 
 PS:`因为原始版本是在Blog上写的，所以有些MarkDown语法和GitHub会有所不同，显示可能会有问题`
