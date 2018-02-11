@@ -1,13 +1,13 @@
 # [如何挖掘网络资源[2]：Google 搜索的基本语法](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html)
 
-[★搜索引擎的选择（为啥不用百度）](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html#head-1)
-[★关键词的逻辑关系](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html#head-2)
-[★精确搜索](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html#head-3)
-[★模糊搜索](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html#head-4)
-[★【排除】某些关键词](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html#head-5)
-[★括号的使用](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html#head-6)
-[★其它的搜索小技巧](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html#head-7)
-[★结尾](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html#head-8)
+1. [★搜索引擎的选择（为啥不用百度）](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html#head-1)
+1. [★关键词的逻辑关系](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html#head-2)
+1. [★精确搜索](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html#head-3)
+1. [★模糊搜索](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html#head-4)
+1. [★【排除】某些关键词](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html#head-5)
+1. [★括号的使用](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html#head-6)
+1. [★其它的搜索小技巧](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html#head-7)
+1. [★结尾](https://program-think.blogspot.com/2013/03/internet-resource-discovery-2.html#head-8)
 
 本系列前一个帖子大致聊了“[网站的类型和使用场景](https://program-think.blogspot.com/2013/03/internet-resource-discovery-1.html)”，里面频繁提到搜索引擎的使用。所以，这一篇就来聊一下搜索引擎的话题。
 

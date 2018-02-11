@@ -2,15 +2,15 @@
 # [如何挖掘网络资源[3]：解答 Google 搜索的常见问题（FAQs）](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html)
 
 
-[★如何禁用“国别重定向”？](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-1)
-[★为啥要使用加密搜索？](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-2)
-[★两个加密搜索域名有啥差异？](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-3)
-[★加密搜索能规避浏览器的监控吗？](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-4)
-[★Google 的网页缓存（快照）有啥用处？](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-5)
-[★如何快速打开某页面的 Google 缓存？](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-6)
-[★如何使用 TOR 访问 Google 搜索？](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-7)
-[★如何避免 Google 搜索的隐私问题？](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-8)
-[★结尾](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-9)
+1. [★如何禁用“国别重定向”？](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-1)
+1. [★为啥要使用加密搜索？](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-2)
+1. [★两个加密搜索域名有啥差异？](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-3)
+1. [★加密搜索能规避浏览器的监控吗？](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-4)
+1. [★Google 的网页缓存（快照）有啥用处？](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-5)
+1. [★如何快速打开某页面的 Google 缓存？](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-6)
+1. [★如何使用 TOR 访问 Google 搜索？](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-7)
+1. [★如何避免 Google 搜索的隐私问题？](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-8)
+1. [★结尾](https://program-think.blogspot.com/2013/03/internet-resource-discovery-3.html#head-9)
 
 ---
 ## ★如何禁用“国别重定向”？

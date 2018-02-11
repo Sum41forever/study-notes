@@ -1,4 +1,4 @@
-![Progress](http://progressed.io/bar/25?title=Progress )   ![last-update](https://img.shields.io/eclipse-marketplace/last-update/notepad4e.svg)  ![license](https://img.shields.io/badge/license-Apache%20License%202.0-orange.svg) 
+![Progress](http://progressed.io/bar/25?title=Progress )   ![last-update](https://img.shields.io/eclipse-marketplace/last-update/notepad4e.svg)   ![license](https://img.shields.io/badge/license-Apache%20License%202.0-orange.svg) 
 
 Study-Notes
 
