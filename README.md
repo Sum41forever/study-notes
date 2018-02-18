@@ -15,7 +15,15 @@ PS:`因为原始版本是在Blog上写的，所以有些MarkDown语法和GitHub�
 ### [音乐教程](https://github.com/Sum41forever/study-notes/blob/master/Music/Course/%E5%85%A5%E9%97%A8%E9%98%B6%E6%AE%B5%E6%95%99%E6%9D%90.md)
 ### [音乐理论](https://github.com/Sum41forever/study-notes/blob/master/Music/Theory/%E9%9B%B6%E5%9F%BA%E7%A1%80%E4%B9%90%E7%90%86%E6%95%99%E7%A8%8B.md)
 
-## Android
+
+## IT
+
+### Java
+  + [Java常用数据结构](https://github.com/Sum41forever/study-notes/blob/master/IT/Java/Java%20Data%20Structure.md)
+### Kotlin
+  + [Kotlin基础语法.md](https://github.com/Sum41forever/study-notes/blob/master/IT/Kotlin/kotlin%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.md)
+
+### Android
 1. Android 可复用资源
   + [Android 可复用的App](https://github.com/Sum41forever/study-notes/blob/master/Android/Android%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%9A%84App.md)
   + [Android 可以复用的UI](https://github.com/Sum41forever/study-notes/blob/master/Android/Android%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%9A%84UI%E5%B8%83%E5%B1%80.md)
@@ -29,13 +37,6 @@ PS:`因为原始版本是在Blog上写的，所以有些MarkDown语法和GitHub�
 4. Android 框架学习
 + [Dagger 2 学习笔记](https://github.com/Sum41forever/study-notes/blob/master/Android/Dagger%202%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 + [Android Rxlifecycle 实现原理及过程](https://github.com/Sum41forever/study-notes/blob/master/Android/Android%20Rxlifecycle%20%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86%E5%8F%8A%E8%BF%87%E7%A8%8B.md)
-
-## IT
-
-### Java
-  + [Java常用数据结构](https://github.com/Sum41forever/study-notes/blob/master/IT/Java/Java%20Data%20Structure.md)
-### Kotlin
-  + [Kotlin基础语法.md](https://github.com/Sum41forever/study-notes/blob/master/IT/Kotlin/kotlin%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.md)
 
 ## 编程工具
 1. [Git 日常分支操作](https://github.com/Sum41forever/study-notes/blob/master/Programming-Tools/Git%20%E6%97%A5%E5%B8%B8%E5%88%86%E6%94%AF%E6%93%8D%E4%BD%9C.md)
